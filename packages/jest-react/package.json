@@ -46,5 +46,5 @@
     "eslint-plugin-jest-dom": "^5.0.0",
     "eslint-plugin-testing-library": "^6.0.0"
   },
-  "packageManager": "pnpm@8.8.0"
+  "packageManager": "pnpm@8.9.0"
 }
