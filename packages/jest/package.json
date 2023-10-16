@@ -42,5 +42,5 @@
     "eslint": "^8.0.0",
     "eslint-plugin-jest": "^27.0.0"
   },
-  "packageManager": "pnpm@8.9.0"
+  "packageManager": "pnpm@8.9.2"
 }
