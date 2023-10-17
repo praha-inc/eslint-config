@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@agaroot/eslint-config-common": "workspace:*",
-    "@next/eslint-plugin-next": "13.5.4",
+    "@next/eslint-plugin-next": "13.5.5",
     "@typescript-eslint/eslint-plugin": "6.7.5",
     "@typescript-eslint/parser": "6.7.5",
     "eslint": "8.51.0",
