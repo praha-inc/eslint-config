@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@tsconfig/strictest": "2.0.5",
-    "@types/eslint": "8.56.12",
+    "@types/eslint": "9.6.1",
     "@types/node": "20.16.14",
     "eslint": "8.57.1",
     "pkgroll": "2.5.0"
