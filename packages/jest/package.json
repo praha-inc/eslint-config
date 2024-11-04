@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@agaroot/eslint-config-definer": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
     "eslint-plugin-jest": "^28.6.0",
     "globals": "^15.8.0"
   },
