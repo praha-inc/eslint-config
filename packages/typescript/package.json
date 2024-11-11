@@ -45,7 +45,7 @@
     "@agaroot/eslint-config-definer": "workspace:*",
     "@typescript-eslint/parser": "^7.17.0",
     "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-import-x": "^3.1.0",
+    "eslint-plugin-import-x": "^4.0.0",
     "typescript-eslint": "^7.17.0"
   },
   "devDependencies": {
