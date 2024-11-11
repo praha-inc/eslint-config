@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@agaroot/eslint-config-definer": "workspace:*",
-    "@eslint/js": "^8.57.0",
+    "@eslint/js": "^9.0.0",
     "eslint-plugin-import-x": "^3.1.0",
     "eslint-plugin-unicorn": "^55.0.0",
     "eslint-plugin-unused-imports": "^3.2.0",
@@ -54,11 +54,11 @@
     "@types/eslint": "8.56.12",
     "@types/eslint__js": "8.42.3",
     "@typescript-eslint/eslint-plugin": "7.18.0",
-    "eslint": "8.57.1",
+    "eslint": "9.14.0",
     "pkgroll": "2.5.0"
   },
   "peerDependencies": {
     "@agaroot/eslint-config-common": "workspace:*",
-    "eslint": "^8.0.0"
+    "eslint": "^8.0.0 || ^9.0.0"
   }
 }
