@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@agaroot/eslint-config-definer": "workspace:*",
-    "@stylistic/eslint-plugin": "~2.3.0"
+    "@stylistic/eslint-plugin": "~2.10.0"
   },
   "devDependencies": {
     "@tsconfig/strictest": "2.0.5",
