@@ -3,7 +3,7 @@ import eslintPluginImportX from 'eslint-plugin-import-x';
 // @ts-expect-error
 import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 import type { ESLint } from 'eslint';
 
 export const importConfigurator: Configurator = () => {
@@ -25,7 +25,7 @@ export const importConfigurator: Configurator = () => {
       },
     },
     {
-      name: 'agaroot/javascript/import/rules',
+      name: 'praha/javascript/import/rules',
       rules: {
         'import-x/consistent-type-specifier-style': ['error', 'prefer-top-level'],
         'import-x/newline-after-import': ['error', {

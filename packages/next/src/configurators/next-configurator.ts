@@ -2,7 +2,7 @@
 // @ts-expect-error
 import eslintPluginNext from '@next/eslint-plugin-next';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 import type { ESLint, Linter } from 'eslint';
 
 export const nextConfigurator: Configurator = () => {

@@ -1,4 +1,4 @@
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export const ignoreConfigurator: Configurator = () => {
   return [

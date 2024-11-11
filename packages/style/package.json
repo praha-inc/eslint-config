@@ -1,20 +1,20 @@
 {
-  "name": "@agaroot/eslint-config-style",
+  "name": "@praha/eslint-config-style",
   "version": "2.0.9",
-  "description": "ESLint config for AGAROOT",
+  "description": "ESLint config for PrAha",
   "keywords": [
-    "agaroot",
+    "praha",
     "eslint",
     "config",
     "style"
   ],
-  "homepage": "https://github.com/agaroot-technologies/eslint-config/blob/main/packages/typescript/README.md",
+  "homepage": "https://github.com/praha-inc/eslint-config/blob/main/packages/typescript/README.md",
   "bugs": {
-    "url": "https://github.com/agaroot-technologies/eslint-config/issues"
+    "url": "https://github.com/praha-inc/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agaroot-technologies/eslint-config.git"
+    "url": "git+https://github.com/praha-inc/eslint-config.git"
   },
   "license": "MIT",
   "type": "module",
@@ -42,7 +42,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@agaroot/eslint-config-definer": "workspace:*",
+    "@praha/eslint-config-definer": "workspace:*",
     "@stylistic/eslint-plugin": "~2.3.0"
   },
   "devDependencies": {
@@ -53,13 +53,13 @@
     "pkgroll": "2.5.0"
   },
   "peerDependencies": {
-    "@agaroot/eslint-config-common": "workspace:*",
-    "@agaroot/eslint-config-javascript": "workspace:*",
-    "@agaroot/eslint-config-typescript": "workspace:*",
+    "@praha/eslint-config-common": "workspace:*",
+    "@praha/eslint-config-javascript": "workspace:*",
+    "@praha/eslint-config-typescript": "workspace:*",
     "eslint": "^8.0.0"
   },
   "peerDependenciesMeta": {
-    "@agaroot/eslint-config-typescript": {
+    "@praha/eslint-config-typescript": {
       "optional": true
     }
   }

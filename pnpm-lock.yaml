@@ -20,7 +20,7 @@ importers:
 
   packages/common:
     dependencies:
-      '@agaroot/eslint-config-definer':
+      '@praha/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
       eslint-plugin-jsonc:
@@ -57,10 +57,10 @@ importers:
 
   packages/javascript:
     dependencies:
-      '@agaroot/eslint-config-common':
+      '@praha/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@agaroot/eslint-config-definer':
+      '@praha/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
       '@eslint/js':
@@ -100,16 +100,16 @@ importers:
 
   packages/jest:
     dependencies:
-      '@agaroot/eslint-config-common':
+      '@praha/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@agaroot/eslint-config-definer':
+      '@praha/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@agaroot/eslint-config-javascript':
+      '@praha/eslint-config-javascript':
         specifier: workspace:*
         version: link:../javascript
-      '@agaroot/eslint-config-typescript':
+      '@praha/eslint-config-typescript':
         specifier: workspace:*
         version: link:../typescript
       '@typescript-eslint/eslint-plugin':
@@ -137,25 +137,25 @@ importers:
 
   packages/jest-react:
     dependencies:
-      '@agaroot/eslint-config-common':
+      '@praha/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@agaroot/eslint-config-definer':
+      '@praha/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@agaroot/eslint-config-javascript':
+      '@praha/eslint-config-javascript':
         specifier: workspace:*
         version: link:../javascript
-      '@agaroot/eslint-config-jest':
+      '@praha/eslint-config-jest':
         specifier: workspace:*
         version: link:../jest
-      '@agaroot/eslint-config-next':
+      '@praha/eslint-config-next':
         specifier: workspace:*
         version: link:../next
-      '@agaroot/eslint-config-react':
+      '@praha/eslint-config-react':
         specifier: workspace:*
         version: link:../react
-      '@agaroot/eslint-config-typescript':
+      '@praha/eslint-config-typescript':
         specifier: workspace:*
         version: link:../typescript
       eslint-plugin-jest-dom:
@@ -180,19 +180,19 @@ importers:
 
   packages/next:
     dependencies:
-      '@agaroot/eslint-config-common':
+      '@praha/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@agaroot/eslint-config-definer':
+      '@praha/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@agaroot/eslint-config-javascript':
+      '@praha/eslint-config-javascript':
         specifier: workspace:*
         version: link:../javascript
-      '@agaroot/eslint-config-react':
+      '@praha/eslint-config-react':
         specifier: workspace:*
         version: link:../react
-      '@agaroot/eslint-config-typescript':
+      '@praha/eslint-config-typescript':
         specifier: workspace:*
         version: link:../typescript
       '@next/eslint-plugin-next':
@@ -214,16 +214,16 @@ importers:
 
   packages/react:
     dependencies:
-      '@agaroot/eslint-config-common':
+      '@praha/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@agaroot/eslint-config-definer':
+      '@praha/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@agaroot/eslint-config-javascript':
+      '@praha/eslint-config-javascript':
         specifier: workspace:*
         version: link:../javascript
-      '@agaroot/eslint-config-typescript':
+      '@praha/eslint-config-typescript':
         specifier: workspace:*
         version: link:../typescript
       '@eslint/compat':
@@ -254,16 +254,16 @@ importers:
 
   packages/style:
     dependencies:
-      '@agaroot/eslint-config-common':
+      '@praha/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@agaroot/eslint-config-definer':
+      '@praha/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@agaroot/eslint-config-javascript':
+      '@praha/eslint-config-javascript':
         specifier: workspace:*
         version: link:../javascript
-      '@agaroot/eslint-config-typescript':
+      '@praha/eslint-config-typescript':
         specifier: workspace:*
         version: link:../typescript
       '@stylistic/eslint-plugin':
@@ -288,13 +288,13 @@ importers:
 
   packages/typescript:
     dependencies:
-      '@agaroot/eslint-config-common':
+      '@praha/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@agaroot/eslint-config-definer':
+      '@praha/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@agaroot/eslint-config-javascript':
+      '@praha/eslint-config-javascript':
         specifier: workspace:*
         version: link:../javascript
       '@typescript-eslint/parser':

@@ -2,12 +2,12 @@ import g from 'globals';
 
 import { files } from '../files';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export const globalsConfigurator: Configurator = () => {
   return [
     {
-      name: 'agaroot/jest/globals',
+      name: 'praha/jest/globals',
       files,
       languageOptions: {
         globals: {

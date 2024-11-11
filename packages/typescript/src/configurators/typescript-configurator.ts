@@ -4,7 +4,7 @@ import tseslint from 'typescript-eslint';
 
 import { files } from '../files';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 import type { Linter } from 'eslint';
 
 export type TypescriptConfiguratorOptions = {
@@ -18,7 +18,7 @@ export const typescriptConfigurator: Configurator<TypescriptConfiguratorOptions>
       ...config,
     })) as Linter.FlatConfig[],
     {
-      name: 'agaroot/typescript/parser',
+      name: 'praha/typescript/parser',
       files,
       languageOptions: {
         parserOptions: {
@@ -28,7 +28,7 @@ export const typescriptConfigurator: Configurator<TypescriptConfiguratorOptions>
       },
     },
     {
-      name: 'agaroot/typescript/rules',
+      name: 'praha/typescript/rules',
       files,
       rules: {
         '@typescript-eslint/consistent-type-imports': ['error', {
@@ -43,7 +43,7 @@ export const typescriptConfigurator: Configurator<TypescriptConfiguratorOptions>
       },
     },
     {
-      name: 'agaroot/typescript/rules/test',
+      name: 'praha/typescript/rules/test',
       files: [
         '**/*.test.*',
         '**/__tests__/**/*',

@@ -11,21 +11,21 @@
     },
     "lint:code": {
       "dependsOn": [
-        "@agaroot/eslint-config-definer#build",
-        "@agaroot/eslint-config-common#build",
-        "@agaroot/eslint-config-javascript#build",
-        "@agaroot/eslint-config-typescript#build",
-        "@agaroot/eslint-config-style#build",
+        "@praha/eslint-config-definer#build",
+        "@praha/eslint-config-common#build",
+        "@praha/eslint-config-javascript#build",
+        "@praha/eslint-config-typescript#build",
+        "@praha/eslint-config-style#build",
         "^build"
       ]
     },
     "lint:type": {
       "dependsOn": [
-        "@agaroot/eslint-config-definer#build",
-        "@agaroot/eslint-config-common#build",
-        "@agaroot/eslint-config-javascript#build",
-        "@agaroot/eslint-config-typescript#build",
-        "@agaroot/eslint-config-style#build",
+        "@praha/eslint-config-definer#build",
+        "@praha/eslint-config-common#build",
+        "@praha/eslint-config-javascript#build",
+        "@praha/eslint-config-typescript#build",
+        "@praha/eslint-config-style#build",
         "^build"
       ]
     }

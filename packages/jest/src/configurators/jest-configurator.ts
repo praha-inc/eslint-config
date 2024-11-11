@@ -4,7 +4,7 @@ import eslintPluginJest from 'eslint-plugin-jest';
 
 import { files } from '../files';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 import type { Linter } from 'eslint';
 
 export const jestConfigurator: Configurator = () => {
@@ -22,7 +22,7 @@ export const jestConfigurator: Configurator = () => {
       ...eslintPluginJest.configs['flat/style'] as Linter.FlatConfig,
     },
     {
-      name: 'agaroot/jest/rules',
+      name: 'praha/jest/rules',
       files,
       rules: {
         '@typescript-eslint/unbound-method': 'off',

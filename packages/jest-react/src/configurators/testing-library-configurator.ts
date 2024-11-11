@@ -4,7 +4,7 @@ import eslintPluginTestingLibrary from 'eslint-plugin-testing-library';
 
 import { files } from '../files';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 import type { ESLint, Linter } from 'eslint';
 
 export const testingLibraryConfigurator: Configurator = () => {

@@ -1,19 +1,19 @@
 {
-  "name": "@agaroot/eslint-config-common",
+  "name": "@praha/eslint-config-common",
   "version": "3.0.6",
-  "description": "ESLint config for AGAROOT",
+  "description": "ESLint config for PrAha",
   "keywords": [
-    "agaroot",
+    "praha",
     "eslint",
     "config"
   ],
-  "homepage": "https://github.com/agaroot-technologies/eslint-config/blob/main/packages/common/README.md",
+  "homepage": "https://github.com/praha-inc/eslint-config/blob/main/packages/common/README.md",
   "bugs": {
-    "url": "https://github.com/agaroot-technologies/eslint-config/issues"
+    "url": "https://github.com/praha-inc/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agaroot-technologies/eslint-config.git"
+    "url": "git+https://github.com/praha-inc/eslint-config.git"
   },
   "license": "MIT",
   "type": "module",
@@ -41,7 +41,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@agaroot/eslint-config-definer": "workspace:*",
+    "@praha/eslint-config-definer": "workspace:*",
     "eslint-plugin-jsonc": "^2.16.0"
   },
   "devDependencies": {

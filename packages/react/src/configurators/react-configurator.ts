@@ -5,7 +5,7 @@ import eslintPluginReact from 'eslint-plugin-react';
 // @ts-expect-error
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 import type { ESLint, Linter } from 'eslint';
 
 export const reactConfigurator: Configurator = () => {
@@ -24,7 +24,7 @@ export const reactConfigurator: Configurator = () => {
       rules: eslintPluginReactHooks.configs.recommended.rules as Linter.RulesRecord,
     },
     {
-      name: 'agaroot/react/settings',
+      name: 'praha/react/settings',
       settings: {
         react: {
           version: 'detect',
@@ -32,7 +32,7 @@ export const reactConfigurator: Configurator = () => {
       },
     },
     {
-      name: 'agaroot/react/rules',
+      name: 'praha/react/rules',
       rules: {
         'react/function-component-definition': ['error', {
           namedComponents: 'arrow-function',

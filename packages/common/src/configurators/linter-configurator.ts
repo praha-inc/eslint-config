@@ -1,9 +1,9 @@
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export const linterConfigurator: Configurator = () => {
   return [
     {
-      name: 'agaroot/common/linter',
+      name: 'praha/common/linter',
       linterOptions: {
         reportUnusedDisableDirectives: true,
       },
