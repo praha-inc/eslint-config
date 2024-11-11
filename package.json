@@ -1,15 +1,15 @@
 {
-  "name": "@agaroot/eslint-config",
+  "name": "@praha/eslint-config",
   "version": "1.0.0",
   "private": true,
-  "description": "ESLint config for AGAROOT",
-  "homepage": "https://github.com/agaroot-technologies/eslint-config",
+  "description": "ESLint config for PrAha",
+  "homepage": "https://github.com/praha-inc/eslint-config",
   "bugs": {
-    "url": "https://github.com/agaroot-technologies/eslint-config/issues"
+    "url": "https://github.com/praha-inc/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agaroot-technologies/eslint-config.git"
+    "url": "git+https://github.com/praha-inc/eslint-config.git"
   },
   "license": "MIT",
   "scripts": {

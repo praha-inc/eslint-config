@@ -1,11 +1,11 @@
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export const jsonConfigurator: Configurator = () => {
   return [
     {
       // This rule refers to the sort-package-json.
       // @see: https://github.com/keithamus/sort-package-json/blob/d4bd8e25bdaf1cfd72649721d3e79e554d13f3a5/index.js#L245-L372
-      name: 'agaroot/typescript/json/sort-tsconfig-json',
+      name: 'praha/typescript/json/sort-tsconfig-json',
       files: ['**/tsconfig.json'],
       rules: {
         'jsonc/sort-keys': ['error', {

@@ -1,9 +1,9 @@
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export const languageConfigurator: Configurator = () => {
   return [
     {
-      name: 'agaroot/javascript/language',
+      name: 'praha/javascript/language',
       languageOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',

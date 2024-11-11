@@ -4,7 +4,7 @@ import eslintPluginJestDom from 'eslint-plugin-jest-dom';
 
 import { files } from '../files';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 import type { Linter } from 'eslint';
 
 export const jestDomConfigurator: Configurator = () => {

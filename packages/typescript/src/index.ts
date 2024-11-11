@@ -1,4 +1,4 @@
-import { define } from '@agaroot/eslint-config-definer';
+import { define } from '@praha/eslint-config-definer';
 
 import { importConfigurator } from './configurators/import-configurator';
 import { jsonConfigurator } from './configurators/json-configurator';

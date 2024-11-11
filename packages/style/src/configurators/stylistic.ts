@@ -1,6 +1,6 @@
 import eslintPluginStylistic from '@stylistic/eslint-plugin';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export const stylistic: Configurator = () => {
   return [
@@ -20,7 +20,7 @@ export const stylistic: Configurator = () => {
       }),
     },
     {
-      name: 'agaroot/stylistic/rules',
+      name: 'praha/stylistic/rules',
       rules: {
         '@stylistic/jsx-one-expression-per-line': ['error', { allow: 'single-line' }],
         '@stylistic/multiline-ternary': 'off',

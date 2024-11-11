@@ -1,4 +1,4 @@
-import { define } from '@agaroot/eslint-config-definer';
+import { define } from '@praha/eslint-config-definer';
 
 import { stylistic } from './configurators/stylistic';
 

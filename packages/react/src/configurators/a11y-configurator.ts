@@ -2,7 +2,7 @@
 // @ts-expect-error
 import eslintPluginJsxA11y from 'eslint-plugin-jsx-a11y';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 import type { ESLint, Linter } from 'eslint';
 
 export const a11yConfigurator: Configurator = () => {

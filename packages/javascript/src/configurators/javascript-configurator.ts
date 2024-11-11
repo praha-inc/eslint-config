@@ -1,7 +1,7 @@
 import eslint from '@eslint/js';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export const javascriptConfigurator: Configurator = () => {
   return [
@@ -14,7 +14,7 @@ export const javascriptConfigurator: Configurator = () => {
       ...eslintPluginUnicorn.configs['flat/recommended'],
     },
     {
-      name: 'agaroot/javascript/rules',
+      name: 'praha/javascript/rules',
       rules: {
         'func-style': ['error', 'expression'],
         'no-unused-vars': 'off',

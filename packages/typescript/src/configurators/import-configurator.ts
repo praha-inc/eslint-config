@@ -2,7 +2,7 @@ import eslintPluginImportX from 'eslint-plugin-import-x';
 
 import { files } from '../files';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export type ImportConfiguratorOptions = {
   tsconfigPath: string;
@@ -16,7 +16,7 @@ export const importConfigurator: Configurator<ImportConfiguratorOptions> = (opti
       ...eslintPluginImportX.configs.typescript,
     },
     {
-      name: 'agaroot/typescript/import/settings',
+      name: 'praha/typescript/import/settings',
       files,
       settings: {
         'import-x/parsers': {

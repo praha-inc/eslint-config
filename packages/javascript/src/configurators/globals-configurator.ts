@@ -1,11 +1,11 @@
 import g from 'globals';
 
-import type { Configurator } from '@agaroot/eslint-config-definer';
+import type { Configurator } from '@praha/eslint-config-definer';
 
 export const globalsConfigurator: Configurator = () => {
   return [
     {
-      name: 'agaroot/javascript/globals',
+      name: 'praha/javascript/globals',
       languageOptions: {
         globals: {
           ...g.browser,
