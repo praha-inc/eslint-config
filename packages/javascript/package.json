@@ -44,7 +44,7 @@
   "dependencies": {
     "@agaroot/eslint-config-definer": "workspace:*",
     "@eslint/js": "^8.57.0",
-    "eslint-plugin-import-x": "^3.1.0",
+    "eslint-plugin-import-x": "^4.0.0",
     "eslint-plugin-unicorn": "^55.0.0",
     "eslint-plugin-unused-imports": "^3.2.0",
     "globals": "^15.8.0"
