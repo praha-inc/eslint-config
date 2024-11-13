@@ -1,5 +1,11 @@
 # @praha/eslint-config-react
 
+## 3.0.10
+
+### Patch Changes
+
+- [#355](https://github.com/praha-inc/eslint-config/pull/355) [`a7cfc93`](https://github.com/praha-inc/eslint-config/commit/a7cfc93ba732e2e3ee6be1d149d6453d7915e181) Thanks [@kmymso](https://github.com/kmymso)! - downgraded `@eslint/compat` because the peer dependencies miss match
+
 ## 3.0.9
 
 ### Patch Changes
