@@ -1,5 +1,13 @@
 # @praha/eslint-config-jest-react
 
+## 3.0.10
+
+### Patch Changes
+
+- Updated dependencies [[`a7cfc93`](https://github.com/praha-inc/eslint-config/commit/a7cfc93ba732e2e3ee6be1d149d6453d7915e181)]:
+  - @praha/eslint-config-react@3.0.10
+  - @praha/eslint-config-next@3.0.10
+
 ## 3.0.9
 
 ### Patch Changes
