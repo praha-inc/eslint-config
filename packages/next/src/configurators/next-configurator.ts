@@ -1,3 +1,4 @@
+import { fixupPluginRules } from '@eslint/compat';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import eslintPluginNext from '@next/eslint-plugin-next';
@@ -10,7 +11,7 @@ export const nextConfigurator: Configurator = () => {
     {
       name: '@next/next/core-web-vitals',
       plugins: {
-        '@next/next': eslintPluginNext as ESLint.Plugin,
+        '@next/next': fixupPluginRules(eslintPluginNext as ESLint.Plugin),
       },
       rules: {
         // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access

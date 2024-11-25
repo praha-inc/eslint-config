@@ -43,21 +43,20 @@
   },
   "dependencies": {
     "@praha/eslint-config-definer": "workspace:*",
-    "@typescript-eslint/parser": "^7.17.0",
-    "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-import-x": "^3.1.0",
-    "typescript-eslint": "^7.17.0"
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import-x": "^4.4.3",
+    "typescript-eslint": "^8.15.0"
   },
   "devDependencies": {
     "@tsconfig/strictest": "2.0.5",
-    "@types/eslint": "8.56.12",
-    "@types/node": "20.16.14",
-    "eslint": "8.57.1",
-    "pkgroll": "2.5.0"
+    "@types/node": "22.9.3",
+    "eslint": "9.15.0",
+    "pkgroll": "2.5.1"
   },
   "peerDependencies": {
     "@praha/eslint-config-common": "workspace:*",
     "@praha/eslint-config-javascript": "workspace:*",
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   }
 }

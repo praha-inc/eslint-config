@@ -13,15 +13,12 @@ export const importConfigurator: Configurator<ImportConfiguratorOptions> = (opti
     {
       name: 'import-x/typescript',
       files,
-      ...eslintPluginImportX.configs.typescript,
+      ...eslintPluginImportX.flatConfigs.typescript,
     },
     {
       name: 'praha/typescript/import/settings',
       files,
       settings: {
-        'import-x/parsers': {
-          '@typescript-eslint/parser': ['.ts', '.tsx', '.cts', '.mts', '.js', '.mjs'],
-        },
         'import-x/resolver': {
           typescript: {
             project: options.tsconfigPath,

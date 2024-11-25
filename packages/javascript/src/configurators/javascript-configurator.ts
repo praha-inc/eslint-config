@@ -9,10 +9,7 @@ export const javascriptConfigurator: Configurator = () => {
       name: 'eslint/recommended',
       ...eslint.configs.recommended,
     },
-    {
-      name: 'unicorn/recommended',
-      ...eslintPluginUnicorn.configs['flat/recommended'],
-    },
+    eslintPluginUnicorn.configs['flat/recommended'],
     {
       name: 'praha/javascript/rules',
       rules: {

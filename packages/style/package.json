@@ -43,20 +43,19 @@
   },
   "dependencies": {
     "@praha/eslint-config-definer": "workspace:*",
-    "@stylistic/eslint-plugin": "~2.3.0"
+    "@stylistic/eslint-plugin": "^2.11.0"
   },
   "devDependencies": {
     "@tsconfig/strictest": "2.0.5",
-    "@types/eslint": "8.56.12",
-    "@types/node": "20.16.14",
-    "eslint": "8.57.1",
-    "pkgroll": "2.5.0"
+    "@types/node": "22.9.3",
+    "eslint": "9.15.0",
+    "pkgroll": "2.5.1"
   },
   "peerDependencies": {
     "@praha/eslint-config-common": "workspace:*",
     "@praha/eslint-config-javascript": "workspace:*",
     "@praha/eslint-config-typescript": "workspace:*",
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   },
   "peerDependenciesMeta": {
     "@praha/eslint-config-typescript": {

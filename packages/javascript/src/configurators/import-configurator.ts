@@ -1,27 +1,16 @@
 import eslintPluginImportX from 'eslint-plugin-import-x';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import eslintPluginUnusedImports from 'eslint-plugin-unused-imports';
 
 import type { Configurator } from '@praha/eslint-config-definer';
-import type { ESLint } from 'eslint';
+import type { Linter } from 'eslint';
 
 export const importConfigurator: Configurator = () => {
   return [
-    {
-      name: 'import-x/recommended',
-      plugins: {
-        'import-x': eslintPluginImportX as unknown as ESLint.Plugin,
-      },
-      rules: eslintPluginImportX.configs.recommended.rules,
-      languageOptions: {
-        parserOptions: eslintPluginImportX.configs.recommended.parserOptions,
-      },
-    },
+    eslintPluginImportX.flatConfigs.recommended as Linter.Config,
     {
       name: 'unused-imports/setup',
       plugins: {
-        'unused-imports': eslintPluginUnusedImports as unknown as ESLint.Plugin,
+        'unused-imports': eslintPluginUnusedImports,
       },
     },
     {

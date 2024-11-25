@@ -42,15 +42,14 @@
   },
   "dependencies": {
     "@praha/eslint-config-definer": "workspace:*",
-    "eslint-plugin-jsonc": "^2.16.0"
+    "eslint-plugin-jsonc": "^2.18.2"
   },
   "devDependencies": {
     "@tsconfig/strictest": "2.0.5",
-    "@types/eslint": "8.56.12",
-    "eslint": "8.57.1",
-    "pkgroll": "2.5.0"
+    "eslint": "9.15.0",
+    "pkgroll": "2.5.1"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   }
 }
