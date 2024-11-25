@@ -1,8 +1,8 @@
-import { javascript } from './dist/index.mjs';
-import { common } from '../common/dist/index.mjs';
-import { define } from '../definer/dist/index.mjs';
-import { style } from '../style/dist/index.mjs';
-import { typescript } from '../typescript/dist/index.mjs';
+import { javascript } from './dist/esm/index.js';
+import { common } from '../common/dist/esm/index.js';
+import { define } from '../definer/dist/esm/index.js';
+import { style } from '../style/dist/esm/index.js';
+import { typescript } from '../typescript/dist/esm/index.js';
 
 const config = define([
   common,
