@@ -13,10 +13,11 @@ export type TypescriptConfiguratorOptions = {
 
 export const typescriptConfigurator: Configurator<TypescriptConfiguratorOptions> = (options) => {
   return [
+    // eslint-disable-next-line import-x/no-named-as-default-member
     ...tseslint.configs.recommendedTypeChecked.map((config) => ({
       files,
       ...config,
-    })) as Linter.FlatConfig[],
+    })) as Linter.Config[],
     {
       name: 'praha/typescript/parser',
       files,
@@ -33,6 +34,9 @@ export const typescriptConfigurator: Configurator<TypescriptConfiguratorOptions>
       rules: {
         '@typescript-eslint/consistent-type-imports': ['error', {
           prefer: 'type-imports',
+        }],
+        '@typescript-eslint/no-empty-object-type': ['error', {
+          allowWithName: 'Props$',
         }],
         '@typescript-eslint/no-misused-promises': ['error', {
           checksVoidReturn: {

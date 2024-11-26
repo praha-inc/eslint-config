@@ -1,5 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import eslintPluginReact from 'eslint-plugin-react';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
@@ -12,9 +10,8 @@ export const reactConfigurator: Configurator = () => {
   return [
     {
       name: 'react/recommended',
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-      ...eslintPluginReact.configs.flat.recommended,
-    } as Linter.FlatConfig,
+      ...eslintPluginReact.configs.flat!['recommended'] as Linter.Config,
+    },
     {
       name: 'react-hooks/recommended',
       plugins: {

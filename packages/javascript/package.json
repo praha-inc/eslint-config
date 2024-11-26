@@ -20,45 +20,43 @@
   "type": "module",
   "exports": {
     "require": {
-      "types": "./dist/index.d.cts",
-      "default": "./dist/index.cjs"
+      "types": "./dist/cjs/index.d.ts",
+      "default": "./dist/cjs/index.cjs"
     },
     "import": {
-      "types": "./dist/index.d.mts",
-      "default": "./dist/index.mjs"
+      "types": "./dist/esm/index.d.ts",
+      "default": "./dist/esm/index.js"
     }
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.cts",
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/cjs/index.d.ts",
   "files": [
     "dist",
     "LICENSE",
     "README.md"
   ],
   "scripts": {
-    "build": "pkgroll",
+    "build": "rslib build",
     "lint:code": "eslint .",
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@eslint/js": "^8.57.0",
+    "@eslint/js": "^9.15.0",
     "@praha/eslint-config-definer": "workspace:*",
-    "eslint-plugin-import-x": "^3.1.0",
-    "eslint-plugin-unicorn": "^55.0.0",
-    "eslint-plugin-unused-imports": "^3.2.0",
-    "globals": "^15.8.0"
+    "eslint-plugin-import-x": "^4.4.3",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.12.0"
   },
   "devDependencies": {
+    "@rslib/core": "0.1.0",
     "@tsconfig/strictest": "2.0.5",
-    "@types/eslint": "8.56.12",
-    "@types/eslint__js": "8.42.3",
-    "@typescript-eslint/eslint-plugin": "7.18.0",
-    "eslint": "8.57.1",
-    "pkgroll": "2.5.0"
+    "@typescript-eslint/eslint-plugin": "8.15.0",
+    "eslint": "9.15.0"
   },
   "peerDependencies": {
     "@praha/eslint-config-common": "workspace:*",
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   }
 }

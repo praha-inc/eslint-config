@@ -6,6 +6,7 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "outDir": "dist",
     "esModuleInterop": true,
     "target": "ES2022"
   }

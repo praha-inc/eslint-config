@@ -3,6 +3,7 @@ import type { Configurator } from '@praha/eslint-config-definer';
 export const ignoreConfigurator: Configurator = () => {
   return [
     {
+      name: 'praha/common/ignore',
       ignores: [
         // Node modules
         '**/node_modules',

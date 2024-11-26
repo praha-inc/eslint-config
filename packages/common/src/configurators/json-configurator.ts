@@ -7,7 +7,7 @@ export const jsonConfigurator: Configurator = () => {
   return [
     {
       name: 'jsonc/recommended-with-json',
-      ...Object.assign({}, ...eslintPluginJsonc.configs['flat/recommended-with-json']) as Linter.FlatConfig,
+      ...Object.assign({}, ...eslintPluginJsonc.configs['flat/recommended-with-json']) as Linter.Config,
     },
     {
       // This rule refers to the sort-package-json.

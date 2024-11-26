@@ -1,25 +1,20 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import eslintPluginJest from 'eslint-plugin-jest';
 
 import { files } from '../files';
 
 import type { Configurator } from '@praha/eslint-config-definer';
-import type { Linter } from 'eslint';
 
 export const jestConfigurator: Configurator = () => {
   return [
     {
       name: 'jest/recommended',
       files,
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-      ...eslintPluginJest.configs['flat/recommended'] as Linter.FlatConfig,
+      ...eslintPluginJest.configs['flat/recommended'],
     },
     {
       name: 'jest/style',
       files,
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-      ...eslintPluginJest.configs['flat/style'] as Linter.FlatConfig,
+      ...eslintPluginJest.configs['flat/style'],
     },
     {
       name: 'praha/jest/rules',
