@@ -1,5 +1,22 @@
 # @praha/eslint-config-typescript
 
+## 3.0.0
+
+### Major Changes
+
+- [#357](https://github.com/praha-inc/eslint-config/pull/357) [`1bb9116`](https://github.com/praha-inc/eslint-config/commit/1bb911687802aeac91e44c2a7dd437f0c1f21cd8) Thanks [@Karibash](https://github.com/Karibash)! - Update to ESLint v9
+
+### Patch Changes
+
+- [#357](https://github.com/praha-inc/eslint-config/pull/357) [`bd5ca1a`](https://github.com/praha-inc/eslint-config/commit/bd5ca1a2ae66e2703f108af40a1985d16bf3e253) Thanks [@Karibash](https://github.com/Karibash)! - Use rslib instead of pkgroll
+
+- [#357](https://github.com/praha-inc/eslint-config/pull/357) [`a832f7c`](https://github.com/praha-inc/eslint-config/commit/a832f7c183118d18b5b4b480708b1cd4c33b25a0) Thanks [@Karibash](https://github.com/Karibash)! - Allow empty types/interfaces if the name ends in “Props”
+
+- Updated dependencies [[`1bb9116`](https://github.com/praha-inc/eslint-config/commit/1bb911687802aeac91e44c2a7dd437f0c1f21cd8), [`bd5ca1a`](https://github.com/praha-inc/eslint-config/commit/bd5ca1a2ae66e2703f108af40a1985d16bf3e253), [`a832f7c`](https://github.com/praha-inc/eslint-config/commit/a832f7c183118d18b5b4b480708b1cd4c33b25a0)]:
+  - @praha/eslint-config-javascript@3.0.0
+  - @praha/eslint-config-definer@2.0.0
+  - @praha/eslint-config-common@4.0.0
+
 ## 2.0.8
 
 ### Patch Changes
