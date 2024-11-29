@@ -51,7 +51,7 @@
     "eslint-plugin-react-hooks": "^5.0.0"
   },
   "devDependencies": {
-    "@rslib/core": "0.1.0",
+    "@rslib/core": "0.1.1",
     "@tsconfig/strictest": "2.0.5",
     "eslint": "9.15.0"
   },
