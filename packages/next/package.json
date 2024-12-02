@@ -54,7 +54,7 @@
   "devDependencies": {
     "@rslib/core": "0.1.1",
     "@tsconfig/strictest": "2.0.5",
-    "eslint": "9.15.0"
+    "eslint": "9.16.0"
   },
   "peerDependencies": {
     "@praha/eslint-config-common": "workspace:*",
