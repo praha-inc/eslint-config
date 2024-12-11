@@ -1,6 +1,6 @@
 {
   "name": "@praha/eslint-config-jest-react",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "ESLint config for PrAha",
   "keywords": [
     "praha",
