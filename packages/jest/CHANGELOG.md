@@ -1,5 +1,12 @@
 # @praha/eslint-config-jest
 
+## 4.0.1
+
+### Patch Changes
+
+- Updated dependencies [[`0260635`](https://github.com/praha-inc/eslint-config/commit/0260635c7b253ffa4dbc1e8e52b48aa22dc31dcb)]:
+  - @praha/eslint-config-typescript@3.0.1
+
 ## 4.0.0
 
 ### Major Changes

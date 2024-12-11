@@ -1,5 +1,11 @@
 # @praha/eslint-config-typescript
 
+## 3.0.1
+
+### Patch Changes
+
+- [#384](https://github.com/praha-inc/eslint-config/pull/384) [`0260635`](https://github.com/praha-inc/eslint-config/commit/0260635c7b253ffa4dbc1e8e52b48aa22dc31dcb) Thanks [@Karibash](https://github.com/Karibash)! - Allow the use of empty objects
+
 ## 3.0.0
 
 ### Major Changes
