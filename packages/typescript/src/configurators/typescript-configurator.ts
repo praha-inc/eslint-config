@@ -35,9 +35,7 @@ export const typescriptConfigurator: Configurator<TypescriptConfiguratorOptions>
         '@typescript-eslint/consistent-type-imports': ['error', {
           prefer: 'type-imports',
         }],
-        '@typescript-eslint/no-empty-object-type': ['error', {
-          allowWithName: 'Props$',
-        }],
+        '@typescript-eslint/no-empty-object-type': 'off',
         '@typescript-eslint/no-misused-promises': ['error', {
           checksVoidReturn: {
             attributes: false,
