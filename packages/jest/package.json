@@ -64,5 +64,8 @@
     "@praha/eslint-config-typescript": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
