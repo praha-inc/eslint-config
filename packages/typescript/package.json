@@ -58,5 +58,8 @@
     "@praha/eslint-config-common": "workspace:*",
     "@praha/eslint-config-javascript": "workspace:*",
     "eslint": "^9.0.0"
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }

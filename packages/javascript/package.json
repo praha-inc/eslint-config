@@ -58,5 +58,8 @@
   "peerDependencies": {
     "@praha/eslint-config-common": "workspace:*",
     "eslint": "^9.0.0"
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
