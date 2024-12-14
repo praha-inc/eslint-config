@@ -1,5 +1,15 @@
 # @praha/eslint-config-javascript
 
+## 3.0.1
+
+### Patch Changes
+
+- [#389](https://github.com/praha-inc/eslint-config/pull/389) [`53c77a4`](https://github.com/praha-inc/eslint-config/commit/53c77a4e696470f757b1eff78d028f5e4ed25c4d) Thanks [@Karibash](https://github.com/Karibash)! - Introduce the npm package provenance
+
+- Updated dependencies [[`53c77a4`](https://github.com/praha-inc/eslint-config/commit/53c77a4e696470f757b1eff78d028f5e4ed25c4d)]:
+  - @praha/eslint-config-definer@2.0.1
+  - @praha/eslint-config-common@4.0.1
+
 ## 3.0.0
 
 ### Major Changes
