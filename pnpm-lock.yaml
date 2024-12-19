@@ -28,8 +28,8 @@ importers:
         version: 2.18.2(eslint@9.17.0)
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -40,8 +40,8 @@ importers:
   packages/definer:
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -74,8 +74,8 @@ importers:
         version: 15.14.0
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -111,8 +111,8 @@ importers:
         version: 15.14.0
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -151,8 +151,8 @@ importers:
         version: 7.1.1(eslint@9.17.0)(typescript@5.4.2)
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -185,8 +185,8 @@ importers:
         version: link:../typescript
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -219,8 +219,8 @@ importers:
         version: 5.1.0(eslint@9.17.0)
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -247,8 +247,8 @@ importers:
         version: 2.12.1(eslint@9.17.0)(typescript@5.4.2)
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -284,8 +284,8 @@ importers:
         version: 8.18.1(eslint@9.17.0)(typescript@5.4.2)
     devDependencies:
       '@rslib/core':
-        specifier: 0.1.4
-        version: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
+        specifier: 0.1.5
+        version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -506,8 +506,8 @@ packages:
     engines: {node: '>=16.7.0'}
     hasBin: true
 
-  '@rslib/core@0.1.4':
-    resolution: {integrity: sha512-JyjSDxLTQmYg7UCASPOdjIY8VzNLsV2XR/liwdVf81nhendm2BuGB30wn76WEK0wxTkBZ1mPufwRCal0NMsjZw==}
+  '@rslib/core@0.1.5':
+    resolution: {integrity: sha512-m0OPJNy5ZZqqKDNWTdiG8GELgg++77Ndx3Op48mHMZ1aUSknqwKm59Rya/nZr/6fc3rvos1YM5FogXQ3/pt1/A==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
@@ -1664,8 +1664,8 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  magic-string@0.30.14:
-    resolution: {integrity: sha512-5c99P1WKTed11ZC0HMJOj6CDIue6F8ySu+bJL+85q1zBEIY8IklrJ1eiKC2NDRh3Ct3FcvmJPyQHb9erXMTJNw==}
+  magic-string@0.30.17:
+    resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
@@ -1914,8 +1914,8 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rsbuild-plugin-dts@0.1.4:
-    resolution: {integrity: sha512-jqhkHGeswhH1Jfc/5zDX01UhrCwImquVjuZZXnAa34Cx0SEB+938WBIpAkyx3UEq7QLQDSII2z3pZ9cD/bpCTg==}
+  rsbuild-plugin-dts@0.1.5:
+    resolution: {integrity: sha512-p5xN+Cxv59Pk7dHZJk3ca6ryycPfIbyVPk0KWuanLE0/c2s2A5KNJCB/Qyc/MZTYEXhcJNS8FTKxEMXXJGYwvA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -2576,10 +2576,10 @@ snapshots:
       '@swc/helpers': 0.5.15
       core-js: 3.39.0
 
-  '@rslib/core@0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)':
+  '@rslib/core@0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)':
     dependencies:
       '@rsbuild/core': 1.1.10
-      rsbuild-plugin-dts: 0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(@rsbuild/core@1.1.10)(typescript@5.4.2)
+      rsbuild-plugin-dts: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(@rsbuild/core@1.1.10)(typescript@5.4.2)
       tinyglobby: 0.2.10
     optionalDependencies:
       '@microsoft/api-extractor': 7.48.0(@types/node@22.10.2)
@@ -3939,7 +3939,7 @@ snapshots:
       yallist: 4.0.0
     optional: true
 
-  magic-string@0.30.14:
+  magic-string@0.30.17:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
@@ -4172,10 +4172,10 @@ snapshots:
 
   reusify@1.0.4: {}
 
-  rsbuild-plugin-dts@0.1.4(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(@rsbuild/core@1.1.10)(typescript@5.4.2):
+  rsbuild-plugin-dts@0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(@rsbuild/core@1.1.10)(typescript@5.4.2):
     dependencies:
       '@rsbuild/core': 1.1.10
-      magic-string: 0.30.14
+      magic-string: 0.30.17
       picocolors: 1.1.1
       tinyglobby: 0.2.10
     optionalDependencies:
