@@ -14,6 +14,9 @@ importers:
       '@changesets/cli':
         specifier: 2.27.11
         version: 2.27.11
+      '@tsconfig/strictest':
+        specifier: 2.0.5
+        version: 2.0.5
       pkg-pr-new:
         specifier: 0.0.39
         version: 0.0.39
@@ -33,9 +36,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       eslint:
         specifier: 9.17.0
         version: 9.17.0
@@ -45,9 +45,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       eslint:
         specifier: 9.17.0
         version: 9.17.0
@@ -79,9 +76,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       '@typescript-eslint/eslint-plugin':
         specifier: 8.18.1
         version: 8.18.1(@typescript-eslint/parser@8.18.1(eslint@9.17.0)(typescript@5.4.2))(eslint@9.17.0)(typescript@5.4.2)
@@ -116,9 +110,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       eslint:
         specifier: 9.17.0
         version: 9.17.0
@@ -156,9 +147,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       eslint:
         specifier: 9.17.0
         version: 9.17.0
@@ -190,9 +178,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       eslint:
         specifier: 9.17.0
         version: 9.17.0
@@ -224,9 +209,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       eslint:
         specifier: 9.17.0
         version: 9.17.0
@@ -252,9 +234,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       '@types/node':
         specifier: 22.10.2
         version: 22.10.2
@@ -289,9 +268,6 @@ importers:
       '@rslib/core':
         specifier: 0.1.5
         version: 0.1.5(@microsoft/api-extractor@7.48.0(@types/node@22.10.2))(typescript@5.4.2)
-      '@tsconfig/strictest':
-        specifier: 2.0.5
-        version: 2.0.5
       '@types/node':
         specifier: 22.10.2
         version: 22.10.2
