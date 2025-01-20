@@ -52,7 +52,7 @@
     "@praha/eslint-config-definer": "workspace:*"
   },
   "devDependencies": {
-    "@rslib/core": "0.2.2",
+    "@rslib/core": "0.3.2",
     "eslint": "9.18.0"
   },
   "peerDependencies": {
