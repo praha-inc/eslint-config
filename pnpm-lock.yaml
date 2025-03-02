@@ -228,8 +228,8 @@ importers:
         specifier: workspace:*
         version: link:../typescript
       '@stylistic/eslint-plugin':
-        specifier: ^2.11.0
-        version: 2.13.0(eslint@9.21.0)(typescript@5.4.2)
+        specifier: ^4.0.0
+        version: 4.1.0(eslint@9.21.0)(typescript@5.4.2)
     devDependencies:
       '@rslib/core':
         specifier: 0.5.2
@@ -699,11 +699,11 @@ packages:
   '@rushstack/ts-command-line@4.23.1':
     resolution: {integrity: sha512-40jTmYoiu/xlIpkkRsVfENtBq4CW3R4azbL0Vmda+fMwHWqss6wwf/Cy/UJmMqIzpfYc2OTnjYP1ZLD3CmyeCA==}
 
-  '@stylistic/eslint-plugin@2.13.0':
-    resolution: {integrity: sha512-RnO1SaiCFHn666wNz2QfZEFxvmiNRqhzaMXHXxXXKt+MEP7aajlPxUSMIQpKAaJfverpovEYqjBOXDq6dDcaOQ==}
+  '@stylistic/eslint-plugin@4.1.0':
+    resolution: {integrity: sha512-bytbL7qiici7yPyEiId0fGPK9kjQbzcPMj2aftPfzTCyJ/CRSKdtI+iVjM0LSGzGxfunflI+MDDU9vyIIeIpoQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: '>=8.40.0'
+      eslint: '>=9.0.0'
 
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
@@ -3207,9 +3207,9 @@ snapshots:
       - '@types/node'
     optional: true
 
-  '@stylistic/eslint-plugin@2.13.0(eslint@9.21.0)(typescript@5.4.2)':
+  '@stylistic/eslint-plugin@4.1.0(eslint@9.21.0)(typescript@5.4.2)':
     dependencies:
-      '@typescript-eslint/utils': 8.20.0(eslint@9.21.0)(typescript@5.4.2)
+      '@typescript-eslint/utils': 8.25.0(eslint@9.21.0)(typescript@5.4.2)
       eslint: 9.21.0
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
