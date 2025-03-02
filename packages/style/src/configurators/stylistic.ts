@@ -8,7 +8,6 @@ export const stylistic: Configurator = () => {
       name: 'stylistic/recommended',
       // eslint-disable-next-line import-x/no-named-as-default-member
       ...eslintPluginStylistic.configs.customize({
-        flat: true,
         indent: 2,
         quotes: 'single',
         semi: true,
