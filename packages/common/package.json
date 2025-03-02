@@ -16,6 +16,7 @@
     "url": "git+https://github.com/praha-inc/eslint-config.git"
   },
   "license": "MIT",
+  "author": "PrAha, Inc.",
   "type": "module",
   "exports": {
     "require": {

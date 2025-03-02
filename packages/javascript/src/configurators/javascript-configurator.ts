@@ -32,6 +32,8 @@ export const javascriptConfigurator: Configurator = () => {
             args: false,
             // Allow the use of this abbreviation when retrieving environment variables in Node.js, as it is used extensively.
             env: false,
+            // Allow the use of this abbreviation when defining the page parameters in Next.js, as it is used extensively.
+            params: false,
             // Allow the use of this abbreviation when defining the types of component properties in React, as it is used extensively.
             props: false,
             // Allow the use of this abbreviation when retrieving DOM references in React, as it is used extensively.
