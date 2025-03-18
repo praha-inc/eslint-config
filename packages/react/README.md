@@ -59,6 +59,6 @@ Feel free to check [issues page](https://github.com/praha-inc/eslint-config/issu
 
 ## 📝 License
 
-Copyright © 2024 [PrAha](https://www.praha-inc.com/).
+Copyright © [PrAha, Inc.](https://www.praha-inc.com/)
 
 This project is [```MIT```](https://github.com/praha-inc/eslint-config/blob/main/packages/react/LICENSE) licensed.
