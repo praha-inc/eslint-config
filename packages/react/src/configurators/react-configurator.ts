@@ -1,10 +1,7 @@
 import eslintPluginReact from 'eslint-plugin-react';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
-import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
+import { configs as eslintPluginReactHooksConfigs } from 'eslint-plugin-react-hooks';
 
 import type { Configurator } from '@praha/eslint-config-definer';
-import type { ESLint, Linter } from 'eslint';
 
 export const reactConfigurator: Configurator = () => {
   return [
@@ -12,14 +9,7 @@ export const reactConfigurator: Configurator = () => {
       name: 'react/recommended',
       ...eslintPluginReact.configs.flat['recommended'],
     },
-    {
-      name: 'react-hooks/recommended',
-      plugins: {
-        'react-hooks': eslintPluginReactHooks as unknown as ESLint.Plugin,
-      },
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-      rules: eslintPluginReactHooks.configs.recommended.rules as Linter.RulesRecord,
-    },
+    eslintPluginReactHooksConfigs['recommended-latest'],
     {
       name: 'praha/react/settings',
       settings: {
