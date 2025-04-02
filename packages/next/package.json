@@ -48,7 +48,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@eslint/compat": "1.2.7",
+    "@eslint/compat": "1.2.8",
     "@next/eslint-plugin-next": "^15.0.3",
     "@praha/eslint-config-definer": "workspace:*"
   },
