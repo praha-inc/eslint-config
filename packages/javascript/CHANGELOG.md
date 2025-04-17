@@ -1,5 +1,11 @@
 # @praha/eslint-config-javascript
 
+## 3.0.3
+
+### Patch Changes
+
+- [#518](https://github.com/praha-inc/eslint-config/pull/518) [`6aed1c3`](https://github.com/praha-inc/eslint-config/commit/6aed1c3b7eab3176b075646ffcd2b36eb8675eff) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency eslint-plugin-unicorn to v58
+
 ## 3.0.2
 
 ### Patch Changes
