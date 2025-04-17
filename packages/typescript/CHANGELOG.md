@@ -1,5 +1,14 @@
 # @praha/eslint-config-typescript
 
+## 3.0.4
+
+### Patch Changes
+
+- [#544](https://github.com/praha-inc/eslint-config/pull/544) [`3662f91`](https://github.com/praha-inc/eslint-config/commit/3662f91a8c84cd377b696cdeb3a2e4d7434eab94) Thanks [@Karibash](https://github.com/Karibash)! - Add a file to which to apply the rules for testing
+
+- Updated dependencies [[`6aed1c3`](https://github.com/praha-inc/eslint-config/commit/6aed1c3b7eab3176b075646ffcd2b36eb8675eff)]:
+  - @praha/eslint-config-javascript@3.0.3
+
 ## 3.0.3
 
 ### Patch Changes
