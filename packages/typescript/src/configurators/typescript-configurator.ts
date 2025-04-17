@@ -48,6 +48,7 @@ export const typescriptConfigurator: Configurator<TypescriptConfiguratorOptions>
       name: 'praha/typescript/rules/test',
       files: [
         '**/*.test.*',
+        '**/*.test-d.*',
         '**/__tests__/**/*',
       ],
       rules: {
