@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@rslib/core": "0.6.7",
-    "@typescript-eslint/eslint-plugin": "8.31.0",
+    "@typescript-eslint/eslint-plugin": "8.31.1",
     "eslint": "9.25.1"
   },
   "peerDependencies": {
