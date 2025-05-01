@@ -46,7 +46,7 @@
     "eslint-plugin-jsonc": "^2.18.2"
   },
   "devDependencies": {
-    "@rslib/core": "0.6.7",
+    "@rslib/core": "0.6.8",
     "eslint": "9.25.1"
   },
   "peerDependencies": {
