@@ -51,7 +51,7 @@
     "globals": "^16.0.0"
   },
   "devDependencies": {
-    "@rslib/core": "0.6.8",
+    "@rslib/core": "0.6.9",
     "@typescript-eslint/eslint-plugin": "8.32.0",
     "eslint": "9.26.0"
   },
