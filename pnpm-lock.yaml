@@ -18,8 +18,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       pkg-pr-new:
-        specifier: 0.0.45
-        version: 0.0.45
+        specifier: 0.0.46
+        version: 0.0.46
       turbo:
         specifier: 2.5.3
         version: 2.5.3
@@ -2464,8 +2464,8 @@ packages:
     resolution: {integrity: sha512-ueGLflrrnvwB3xuo/uGob5pd5FN7l0MsLf0Z87o/UQmRtwjvfylfc9MurIxRAWywCYTgrvpXBcqjV4OfCYGCIQ==}
     engines: {node: '>=16.20.0'}
 
-  pkg-pr-new@0.0.45:
-    resolution: {integrity: sha512-1T3QhsZAx3wUAi30Cb/i0Q8HBCKWX+cQbfaeA5wgLHe7d7p4xXfWFDNM497oBsK8uME/mFiSr6JY4lGwzFiZww==}
+  pkg-pr-new@0.0.46:
+    resolution: {integrity: sha512-mW2XbV0/45SzM65UwcLefNAfj3Xv1O4BhCpCBc6eNd8+L4vCuXJue+5rOd0JMwUUQ7j8voCXoVnzTA36jszr6w==}
     hasBin: true
 
   pkg-types@1.2.1:
@@ -5650,7 +5650,7 @@ snapshots:
 
   pkce-challenge@5.0.0: {}
 
-  pkg-pr-new@0.0.45:
+  pkg-pr-new@0.0.46:
     dependencies:
       '@jsdevtools/ez-spawn': 3.0.4
       '@octokit/action': 6.1.0
