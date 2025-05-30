@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@rslib/core": "0.9.1",
-    "@types/node": "22.15.24",
+    "@types/node": "22.15.27",
     "eslint": "9.27.0"
   },
   "peerDependencies": {
