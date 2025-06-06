@@ -1,5 +1,13 @@
 # @praha/eslint-config-javascript
 
+## 3.0.4
+
+### Patch Changes
+
+- [#620](https://github.com/praha-inc/eslint-config/pull/620) [`136d09c`](https://github.com/praha-inc/eslint-config/commit/136d09c7626c122d4be58cd6065975da1f1555b7) Thanks [@Karibash](https://github.com/Karibash)! - Add the allowed abbreviations
+
+- [#564](https://github.com/praha-inc/eslint-config/pull/564) [`be2def5`](https://github.com/praha-inc/eslint-config/commit/be2def576471452d708f0bf1cd246e3d95365e6d) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency eslint-plugin-unicorn to v59
+
 ## 3.0.3
 
 ### Patch Changes

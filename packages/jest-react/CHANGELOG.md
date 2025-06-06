@@ -1,5 +1,16 @@
 # @praha/eslint-config-jest-react
 
+## 4.0.5
+
+### Patch Changes
+
+- Updated dependencies [[`136d09c`](https://github.com/praha-inc/eslint-config/commit/136d09c7626c122d4be58cd6065975da1f1555b7), [`be2def5`](https://github.com/praha-inc/eslint-config/commit/be2def576471452d708f0bf1cd246e3d95365e6d)]:
+  - @praha/eslint-config-javascript@3.0.4
+  - @praha/eslint-config-jest@4.0.5
+  - @praha/eslint-config-next@4.0.5
+  - @praha/eslint-config-react@4.0.5
+  - @praha/eslint-config-typescript@3.0.5
+
 ## 4.0.4
 
 ### Patch Changes
