@@ -1,5 +1,11 @@
 # @praha/eslint-config-javascript
 
+## 3.0.5
+
+### Patch Changes
+
+- [#628](https://github.com/praha-inc/eslint-config/pull/628) [`9d06bc5`](https://github.com/praha-inc/eslint-config/commit/9d06bc5c455a3e1a41585937e07850622cb47b7a) Thanks [@Karibash](https://github.com/Karibash)! - Disable unicorn/no-array-callback-reference
+
 ## 3.0.4
 
 ### Patch Changes

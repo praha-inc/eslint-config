@@ -1,5 +1,12 @@
 # @praha/eslint-config-typescript
 
+## 3.0.6
+
+### Patch Changes
+
+- Updated dependencies [[`9d06bc5`](https://github.com/praha-inc/eslint-config/commit/9d06bc5c455a3e1a41585937e07850622cb47b7a)]:
+  - @praha/eslint-config-javascript@3.0.5
+
 ## 3.0.5
 
 ### Patch Changes
