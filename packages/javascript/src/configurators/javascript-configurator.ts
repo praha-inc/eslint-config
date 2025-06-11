@@ -19,6 +19,9 @@ export const javascriptConfigurator: Configurator = () => {
         // Disable this rule because it does not support the less-than operator.
         // @see: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2009
         'unicorn/explicit-length-check': 'off',
+        // Disable this rule because it may cause false positives.
+        // @see: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/1193
+        'unicorn/no-array-callback-reference': 'off',
         // Allow the use of the Array.forEach method because of the preference for functional programming.
         'unicorn/no-array-for-each': 'off',
         // Allow the use of the Array.reduce method because of the preference for functional programming.
