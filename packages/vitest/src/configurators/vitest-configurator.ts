@@ -1,6 +1,6 @@
 import eslintPluginVitest from '@vitest/eslint-plugin';
 
-import { files } from '../../../typescript/src/files';
+import { files } from '../files';
 
 import type { Configurator } from '@praha/eslint-config-definer';
 
