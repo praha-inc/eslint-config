@@ -1,5 +1,15 @@
 # @praha/eslint-config-style
 
+## 3.0.7
+
+### Patch Changes
+
+- [#643](https://github.com/praha-inc/eslint-config/pull/643) [`4e9b00c`](https://github.com/praha-inc/eslint-config/commit/4e9b00cedac31b2b4397375ee5c62387da5c1aa1) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency @stylistic/eslint-plugin to v5
+
+- Updated dependencies [[`ba2ccb7`](https://github.com/praha-inc/eslint-config/commit/ba2ccb792ac8bddb3ae3587ab3f591ecf93e9a19)]:
+  - @praha/eslint-config-javascript@3.0.6
+  - @praha/eslint-config-typescript@3.0.7
+
 ## 3.0.6
 
 ### Patch Changes
