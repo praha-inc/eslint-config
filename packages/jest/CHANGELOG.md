@@ -1,5 +1,15 @@
 # @praha/eslint-config-jest
 
+## 4.0.7
+
+### Patch Changes
+
+- [#638](https://github.com/praha-inc/eslint-config/pull/638) [`dcad413`](https://github.com/praha-inc/eslint-config/commit/dcad4134c9c36c9ef569db1b67348efa326ebcc4) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency eslint-plugin-jest to v29
+
+- Updated dependencies [[`ba2ccb7`](https://github.com/praha-inc/eslint-config/commit/ba2ccb792ac8bddb3ae3587ab3f591ecf93e9a19)]:
+  - @praha/eslint-config-javascript@3.0.6
+  - @praha/eslint-config-typescript@3.0.7
+
 ## 4.0.6
 
 ### Patch Changes
