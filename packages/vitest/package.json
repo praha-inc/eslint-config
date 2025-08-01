@@ -1,0 +1,70 @@
+{
+  "name": "@praha/eslint-config-vitest",
+  "version": "1.0.0",
+  "description": "ESLint config for PrAha",
+  "keywords": [
+    "praha",
+    "eslint",
+    "config",
+    "javascript",
+    "typescript",
+    "vitest"
+  ],
+  "homepage": "https://github.com/praha-inc/eslint-config/blob/main/packages/vitest/README.md",
+  "bugs": {
+    "url": "https://github.com/praha-inc/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praha-inc/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "PrAha, Inc.",
+  "type": "module",
+  "exports": {
+    "require": {
+      "types": "./dist/cjs/index.d.ts",
+      "default": "./dist/cjs/index.cjs"
+    },
+    "import": {
+      "types": "./dist/esm/index.d.ts",
+      "default": "./dist/esm/index.js"
+    }
+  },
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "lint:code": "eslint .",
+    "lint:type": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@praha/eslint-config-definer": "workspace:*",
+    "@vitest/eslint-plugin": "^1.3.4",
+    "globals": "^16.0.0"
+  },
+  "devDependencies": {
+    "@rslib/core": "0.11.0",
+    "eslint": "9.32.0"
+  },
+  "peerDependencies": {
+    "@praha/eslint-config-common": "workspace:*",
+    "@praha/eslint-config-javascript": "workspace:*",
+    "@praha/eslint-config-typescript": "workspace:*",
+    "eslint": "^9.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@praha/eslint-config-typescript": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "provenance": true
+  }
+}
