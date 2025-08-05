@@ -1,5 +1,11 @@
 # @praha/eslint-config-next
 
+## 4.0.8
+
+### Patch Changes
+
+- [#689](https://github.com/praha-inc/eslint-config/pull/689) [`cbaa9ee`](https://github.com/praha-inc/eslint-config/commit/cbaa9eec22443a43493bcac7fa3bd99e75a4ec54) Thanks [@kondo0602](https://github.com/kondo0602)! - Use default import for `@next/eslint-plugin-next`
+
 ## 4.0.7
 
 ### Patch Changes
