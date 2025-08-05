@@ -6,6 +6,7 @@ import type { ESLint, Linter } from 'eslint';
 export const nextConfigurator: Configurator = () => {
   return [
     {
+      name: 'next/core-web-vitals',
       plugins: {
         '@next/next': pluginNext as ESLint.Plugin,
       },
