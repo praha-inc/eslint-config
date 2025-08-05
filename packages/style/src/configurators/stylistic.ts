@@ -6,7 +6,6 @@ export const stylistic: Configurator = () => {
   return [
     {
       name: 'stylistic/recommended',
-
       ...eslintPluginStylistic.configs.customize({
         indent: 2,
         quotes: 'single',
