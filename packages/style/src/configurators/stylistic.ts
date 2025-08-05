@@ -6,7 +6,7 @@ export const stylistic: Configurator = () => {
   return [
     {
       name: 'stylistic/recommended',
-      // eslint-disable-next-line import-x/no-named-as-default-member
+
       ...eslintPluginStylistic.configs.customize({
         indent: 2,
         quotes: 'single',
