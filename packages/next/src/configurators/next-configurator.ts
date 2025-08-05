@@ -1,10 +1,17 @@
-import { flatConfig as eslintPluginNextConfigs } from '@next/eslint-plugin-next';
+import pluginNext from '@next/eslint-plugin-next';
 
 import type { Configurator } from '@praha/eslint-config-definer';
-import type { Linter } from 'eslint';
+import type { ESLint, Linter } from 'eslint';
 
 export const nextConfigurator: Configurator = () => {
   return [
-    eslintPluginNextConfigs.coreWebVitals as Linter.Config,
+    {
+      plugins: {
+        '@next/next': pluginNext as ESLint.Plugin,
+      },
+      rules: {
+        ...pluginNext.configs['core-web-vitals'].rules as Linter.Config['rules'],
+      },
+    },
   ];
 };
