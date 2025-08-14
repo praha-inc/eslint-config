@@ -42,7 +42,7 @@
     "lint:type": "tsc --noEmit"
   },
   "devDependencies": {
-    "@rslib/core": "0.11.2",
+    "@rslib/core": "0.12.0",
     "eslint": "9.33.0"
   },
   "peerDependencies": {
