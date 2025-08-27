@@ -1,6 +1,6 @@
 {
   "name": "@praha/eslint-config-common",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "ESLint config for PrAha",
   "keywords": [
     "praha",
