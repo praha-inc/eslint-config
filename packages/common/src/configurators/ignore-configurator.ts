@@ -17,7 +17,6 @@ export const ignoreConfigurator: Configurator = () => {
 
         // Build directories
         '**/dist',
-        '**/.next',
         '**/.vercel',
 
         // Cache directories
@@ -27,6 +26,10 @@ export const ignoreConfigurator: Configurator = () => {
         // AWS CDK
         '**/cdk.out',
         '**/cdk.context.json',
+
+        // Next.js
+        '**/.next',
+        '**/next-env.d.ts',
       ],
     },
   ];
