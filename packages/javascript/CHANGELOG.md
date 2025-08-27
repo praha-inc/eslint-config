@@ -1,5 +1,12 @@
 # @praha/eslint-config-javascript
 
+## 3.0.7
+
+### Patch Changes
+
+- Updated dependencies [[`780f0d3`](https://github.com/praha-inc/eslint-config/commit/780f0d379f70babcfc88cb6731a0839f2e51fbf2)]:
+  - @praha/eslint-config-common@4.0.2
+
 ## 3.0.6
 
 ### Patch Changes
