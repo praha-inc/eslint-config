@@ -18,8 +18,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       pkg-pr-new:
-        specifier: 0.0.58
-        version: 0.0.58
+        specifier: 0.0.59
+        version: 0.0.59
       turbo:
         specifier: 2.5.6
         version: 2.5.6
@@ -2406,8 +2406,8 @@ packages:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
-  pkg-pr-new@0.0.58:
-    resolution: {integrity: sha512-nyq2i0HzqYQjSOx0C0JGdBNqETPQyB7RyrA5nI+SqvVg3S96fKnHnxKinnzSPIIDcUP3WX0p4NlV8uIf9DEwNg==}
+  pkg-pr-new@0.0.59:
+    resolution: {integrity: sha512-dnSddkZUs5Qz6JhMmHTyYZuscwYRw8XbANazk0uObR89XS2N0AC0gtKMqWxYhgG14BT29kUHGy8aAOYFL1wfeg==}
     hasBin: true
 
   pkg-types@1.2.1:
@@ -5382,7 +5382,7 @@ snapshots:
 
   pify@4.0.1: {}
 
-  pkg-pr-new@0.0.58:
+  pkg-pr-new@0.0.59:
     dependencies:
       '@actions/core': 1.11.1
       '@jsdevtools/ez-spawn': 3.0.4
