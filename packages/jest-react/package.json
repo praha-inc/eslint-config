@@ -51,7 +51,7 @@
     "eslint-plugin-testing-library": "^7.0.0"
   },
   "devDependencies": {
-    "@rslib/core": "0.13.1",
+    "@rslib/core": "0.13.2",
     "eslint": "9.35.0"
   },
   "peerDependencies": {
