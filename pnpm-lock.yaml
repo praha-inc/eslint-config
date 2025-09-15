@@ -18,8 +18,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       pkg-pr-new:
-        specifier: 0.0.59
-        version: 0.0.59
+        specifier: 0.0.60
+        version: 0.0.60
       turbo:
         specifier: 2.5.6
         version: 2.5.6
@@ -2411,8 +2411,8 @@ packages:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
-  pkg-pr-new@0.0.59:
-    resolution: {integrity: sha512-dnSddkZUs5Qz6JhMmHTyYZuscwYRw8XbANazk0uObR89XS2N0AC0gtKMqWxYhgG14BT29kUHGy8aAOYFL1wfeg==}
+  pkg-pr-new@0.0.60:
+    resolution: {integrity: sha512-eblxPNSgv0AO18OrfpHq+YrNHfEqeePWWvlKkPvcHByddGsGDOK25z41C1RDjZ+K8zUHDk5IGN+6n0WZa4T2Pg==}
     hasBin: true
 
   pkg-types@1.2.1:
@@ -5398,7 +5398,7 @@ snapshots:
 
   pify@4.0.1: {}
 
-  pkg-pr-new@0.0.59:
+  pkg-pr-new@0.0.60:
     dependencies:
       '@actions/core': 1.11.1
       '@jsdevtools/ez-spawn': 3.0.4
@@ -5407,7 +5407,7 @@ snapshots:
       isbinaryfile: 5.0.4
       pkg-types: 1.2.1
       query-registry: 3.0.1
-      tinyglobby: 0.2.14
+      tinyglobby: 0.2.15
 
   pkg-types@1.2.1:
     dependencies:
