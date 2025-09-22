@@ -1,4 +1,5 @@
 export const files = [
-  '*.test.{js,jsx,ts,tsx}',
-  '**/__tests__/**/*.{js,jsx,ts,tsx}',
+  '**/*.test.*',
+  '**/*.test-d.*',
+  '**/__tests__/**/*',
 ];
