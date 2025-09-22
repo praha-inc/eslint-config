@@ -1,5 +1,11 @@
 # @praha/eslint-config-definer
 
+## 2.0.2
+
+### Patch Changes
+
+- [#754](https://github.com/praha-inc/eslint-config/pull/754) [`1a18130`](https://github.com/praha-inc/eslint-config/commit/1a1813068f05dfb2bb97669c4d2f10b34c179a63) Thanks [@Karibash](https://github.com/Karibash)! - Add file extensions to import paths in TypeScript declaration files
+
 ## 2.0.1
 
 ### Patch Changes
