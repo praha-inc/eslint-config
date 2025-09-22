@@ -1,5 +1,19 @@
 # @praha/eslint-config-vitest
 
+## 1.0.3
+
+### Patch Changes
+
+- [#754](https://github.com/praha-inc/eslint-config/pull/754) [`1a18130`](https://github.com/praha-inc/eslint-config/commit/1a1813068f05dfb2bb97669c4d2f10b34c179a63) Thanks [@Karibash](https://github.com/Karibash)! - Add file extensions to import paths in TypeScript declaration files
+
+- [#756](https://github.com/praha-inc/eslint-config/pull/756) [`f9e7804`](https://github.com/praha-inc/eslint-config/commit/f9e7804040669f596a6bce27d92bd23d6280244a) Thanks [@Karibash](https://github.com/Karibash)! - Fix bug where Vitest plugin was not applied correctly
+
+- Updated dependencies [[`1a18130`](https://github.com/praha-inc/eslint-config/commit/1a1813068f05dfb2bb97669c4d2f10b34c179a63), [`c89fd17`](https://github.com/praha-inc/eslint-config/commit/c89fd1773854599a3ba06a0c1b02f3090242ebff)]:
+  - @praha/eslint-config-javascript@3.0.8
+  - @praha/eslint-config-typescript@3.0.9
+  - @praha/eslint-config-definer@2.0.2
+  - @praha/eslint-config-common@4.0.3
+
 ## 1.0.2
 
 ### Patch Changes
