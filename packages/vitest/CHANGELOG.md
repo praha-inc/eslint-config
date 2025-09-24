@@ -1,5 +1,11 @@
 # @praha/eslint-config-vitest
 
+## 1.0.4
+
+### Patch Changes
+
+- [#766](https://github.com/praha-inc/eslint-config/pull/766) [`fa7f7e3`](https://github.com/praha-inc/eslint-config/commit/fa7f7e3b15c942dcdf3e1b6710dd5c745930bf08) Thanks [@Karibash](https://github.com/Karibash)! - Exclude files for type testing from lint targets
+
 ## 1.0.3
 
 ### Patch Changes
