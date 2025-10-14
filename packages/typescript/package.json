@@ -50,7 +50,7 @@
     "typescript-eslint": "^8.15.0"
   },
   "devDependencies": {
-    "@rslib/core": "0.15.0",
+    "@rslib/core": "0.15.1",
     "@types/node": "22.18.10",
     "eslint": "9.37.0"
   },

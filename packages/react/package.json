@@ -52,7 +52,7 @@
     "eslint-plugin-react-hooks": "^5.2.0"
   },
   "devDependencies": {
-    "@rslib/core": "0.15.0",
+    "@rslib/core": "0.15.1",
     "eslint": "9.37.0"
   },
   "peerDependencies": {
