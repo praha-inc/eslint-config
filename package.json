@@ -28,5 +28,5 @@
     "pkg-pr-new": "0.0.60",
     "turbo": "2.6.0"
   },
-  "packageManager": "pnpm@10.20.0"
+  "packageManager": "pnpm@10.21.0"
 }
