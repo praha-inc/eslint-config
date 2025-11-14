@@ -1,5 +1,11 @@
 # @praha/eslint-config-javascript
 
+## 3.0.9
+
+### Patch Changes
+
+- [#832](https://github.com/praha-inc/eslint-config/pull/832) [`aae2a03`](https://github.com/praha-inc/eslint-config/commit/aae2a031bd6e62b9931ff9595d5aabfa385f38f4) Thanks [@Karibash](https://github.com/Karibash)! - Add the allowed abbreviations
+
 ## 3.0.8
 
 ### Patch Changes

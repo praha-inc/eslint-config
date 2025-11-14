@@ -1,5 +1,15 @@
 # @praha/eslint-config-react
 
+## 4.0.10
+
+### Patch Changes
+
+- [#777](https://github.com/praha-inc/eslint-config/pull/777) [`e7d3820`](https://github.com/praha-inc/eslint-config/commit/e7d3820377c8269d1bdef05b1a9d0380c6d23e79) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency eslint-plugin-react-hooks to v7
+
+- Updated dependencies [[`aae2a03`](https://github.com/praha-inc/eslint-config/commit/aae2a031bd6e62b9931ff9595d5aabfa385f38f4)]:
+  - @praha/eslint-config-javascript@3.0.9
+  - @praha/eslint-config-typescript@3.0.10
+
 ## 4.0.9
 
 ### Patch Changes
