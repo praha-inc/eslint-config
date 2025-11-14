@@ -43,6 +43,8 @@ export const javascriptConfigurator: Configurator = () => {
             props: false,
             // Allow the use of this abbreviation when retrieving DOM references in React, as it is used extensively.
             ref: false,
+            // Allow the use of this abbreviation when retrieving DOM references in React, as it is used extensively.
+            refs: false,
           },
         }],
       },
