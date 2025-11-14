@@ -9,7 +9,10 @@ export const reactConfigurator: Configurator = () => {
       name: 'react/recommended',
       ...eslintPluginReact.configs.flat['recommended'],
     },
-    eslintPluginReactHooksConfigs['recommended-latest'],
+    {
+      name: 'react-hooks/recommended-latest',
+      ...eslintPluginReactHooksConfigs.flat['recommended-latest'],
+    },
     {
       name: 'praha/react/settings',
       settings: {
