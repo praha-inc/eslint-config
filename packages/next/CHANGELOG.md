@@ -1,5 +1,11 @@
 # @praha/eslint-config-next
 
+## 4.0.12
+
+### Patch Changes
+
+- [#839](https://github.com/praha-inc/eslint-config/pull/839) [`13997f5`](https://github.com/praha-inc/eslint-config/commit/13997f5ecbf7744f9adcc9fdfd37fb26bf6e2442) Thanks [@Karibash](https://github.com/Karibash)! - Fix a bug that caused module resolution to fail
+
 ## 4.0.11
 
 ### Patch Changes
