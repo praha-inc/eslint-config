@@ -1,5 +1,12 @@
 # @praha/eslint-config-jest-react
 
+## 4.0.12
+
+### Patch Changes
+
+- Updated dependencies [[`13997f5`](https://github.com/praha-inc/eslint-config/commit/13997f5ecbf7744f9adcc9fdfd37fb26bf6e2442)]:
+  - @praha/eslint-config-next@4.0.12
+
 ## 4.0.11
 
 ### Patch Changes
