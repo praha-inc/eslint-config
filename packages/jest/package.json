@@ -51,7 +51,7 @@
     "globals": "^16.0.0"
   },
   "devDependencies": {
-    "@rslib/core": "0.18.0",
+    "@rslib/core": "0.18.1",
     "eslint": "9.37.0"
   },
   "peerDependencies": {
