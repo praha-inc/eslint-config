@@ -33,6 +33,10 @@ export const javascriptConfigurator: Configurator = () => {
           replacements: {
             // Allow the use of this abbreviation when defining the types of function arguments in JavaScript, as it is used extensively.
             args: false,
+            // Allow the use of this abbreviation when defining build output directories, as it is used extensively.
+            dist: false,
+            // Allow the use of this abbreviation when referring to documentation files or folders, as it is used extensively.
+            docs: false,
             // Allow the use of this abbreviation when retrieving environment variables in Node.js, as it is used extensively.
             env: false,
             // Allow the use of this abbreviation when a function is received as an argument, as it is used extensively.
