@@ -1,6 +1,6 @@
 {
   "name": "@praha/eslint-config-vitest",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint config for PrAha",
   "keywords": [
     "praha",
