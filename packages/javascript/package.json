@@ -43,7 +43,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@eslint/js": "^9.15.0",
+    "@eslint/js": "^10.0.0",
     "@praha/eslint-config-definer": "workspace:*",
     "eslint-plugin-import-x": "^4.10.5",
     "eslint-plugin-unicorn": "^62.0.0",
@@ -52,11 +52,11 @@
   },
   "devDependencies": {
     "@rslib/core": "0.19.6",
-    "eslint": "9.39.2"
+    "eslint": "10.0.0"
   },
   "peerDependencies": {
     "@praha/eslint-config-common": "workspace:*",
-    "eslint": "^9.0.0"
+    "eslint": "^9.0.0 || ^10.0.0"
   },
   "publishConfig": {
     "provenance": true
