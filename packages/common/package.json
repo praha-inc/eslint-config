@@ -47,10 +47,10 @@
   },
   "devDependencies": {
     "@rslib/core": "0.19.6",
-    "eslint": "9.39.2"
+    "eslint": "10.0.0"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0"
+    "eslint": "^9.0.0 || ^10.0.0"
   },
   "publishConfig": {
     "provenance": true
