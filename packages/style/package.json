@@ -49,7 +49,7 @@
   "devDependencies": {
     "@rslib/core": "0.19.6",
     "@types/node": "24.11.2",
-    "eslint": "9.39.3"
+    "eslint": "9.39.4"
   },
   "peerDependencies": {
     "@praha/eslint-config-common": "workspace:*",
